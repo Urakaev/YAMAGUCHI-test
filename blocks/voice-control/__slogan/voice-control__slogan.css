@@ -1,0 +1,35 @@
+.voice-control__slogan{
+    font-weight: 900;
+    font-size: 61px;
+    line-height: 55px;
+    display: flex;
+    flex-direction: column;
+}
+.voice-control__slogan-part1{
+    font-size: 44px;
+    line-height: 90%;
+}
+.voice-control__slogan-part2{
+    display: block;
+    width: fit-content;
+    align-self: flex-end;
+    margin-top: 18px;
+}
+@media (max-width: 767px){
+    .voice-control__slogan{
+        margin-top: 30px;
+        margin-bottom: 0;
+
+    }
+    .voice-control__slogan-part1{
+        font-size: 38px;
+    }
+    .voice-control__slogan-part2{
+        align-self: unset;
+    }
+    .voice-control__slogan-part2 span:last-of-type{
+        font-size: 49px;
+        margin-top: 13px;
+    }
+
+}

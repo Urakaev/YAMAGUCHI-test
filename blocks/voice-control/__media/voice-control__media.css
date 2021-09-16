@@ -1,0 +1,10 @@
+.voice-control__media{
+    display: flex;
+    margin-left: -20px;
+}
+@media (max-width: 767px){
+    .voice-control__media{
+        margin-left: 0;
+        flex-direction: column;
+    }
+}

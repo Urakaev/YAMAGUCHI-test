@@ -1,0 +1,13 @@
+.voice-control__phone-screen{
+    position: absolute;
+    right: 0;
+}
+@media (max-width: 767px){
+    .voice-control__phone-screen{
+        position: static;
+        margin-top: 15px;
+    }
+    .voice-control__phone-screen img{
+        max-width: 100%;
+    }
+}

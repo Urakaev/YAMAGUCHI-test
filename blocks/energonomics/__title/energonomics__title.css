@@ -1,0 +1,16 @@
+.energonomics__title{
+    font-size: 62px;
+    line-height: 1;
+    color: #0B64FE;
+    font-weight: normal;
+    margin: 0 0 50px 0;
+}
+@media (max-width: 767px){
+    .energonomics__title{
+        font-family: 'Bebas Neue', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        margin-bottom: 25px;
+    }
+}

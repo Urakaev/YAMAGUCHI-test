@@ -1,0 +1,16 @@
+.voice-control__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 70px;
+    max-width: 450px;
+}
+
+@media (max-width: 767px){
+    .voice-control__title{
+        font-size: 34px;
+        line-height: 100%;
+        margin-bottom: 33px;
+        max-width: none;
+    }
+}

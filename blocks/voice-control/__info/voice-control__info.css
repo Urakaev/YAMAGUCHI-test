@@ -1,0 +1,8 @@
+.voice-control__info{
+    min-width: 660px;
+}
+@media (max-width: 767px){
+    .voice-control__info{
+        min-width: unset;
+    }
+}

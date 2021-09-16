@@ -1,0 +1,13 @@
+.energonomics {
+    width: 100%;
+    background: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 767px){
+    .energonomics{
+        flex-direction: column-reverse;
+        padding: 14px 12px;
+    }
+}
