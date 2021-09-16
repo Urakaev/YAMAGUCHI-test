@@ -1,7 +1,7 @@
 .voice-control{
     display: flex;
     background-color: #181818;
-    background-image: url(./../images/voiceControlBG.svg);
+    background-image: url(./../../images/voiceControlBG.svg);
     background-repeat: repeat;
     background-size: cover;
     color: #fff;
